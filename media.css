@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+
+    #contact,
+    footer {
+        height: 40vh;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shoe-Mart</title>
+  </head>
+  <div>
+    <div class="container">
+      <header>
+        <h1>Shoe Mart-Keep Running</h1>
+        <img src="img/logo.jpeg" width="150px" alt="LOGO" />
+        <div>
+          <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Contact" onclick="alert(`Thank you for us Contacing Us. \n We Will Get Back To You Soon`)" >Contact</a></li>
+          </ul>
+        </div>
+        <div class="shopping">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="quantity">0</span>
+        </div>
+      </header>
+
+      <div class="list"></div>
+    </div>
+    <div class="cart">
+      <h1>Cart</h1>
+      <ul class="listCart"></ul>
+      <div class="checkOut">
+        <div
+          class="total"
+          onclick="alert(`&#8377; Pay the total amount &#8377;`)"
+        >
+          0
+        </div>
+        <div
+          class="checkout"
+          onclick="alert(`Thank you for shopping with us &#128512; \n &#127939; Keep Running  &#127939; `)"
+        >
+          checkout
+        </div>
+        <div class="closeShopping">Close</div>
+      </div>
+    </div>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Contact" onclick="alert(`Thank your for Contacting Shoe Mart \n We Will Get Back To You Soon`)">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <p>Copyright &#169; 2023 Shoe Mart. All Rights Reserved.</p>
+    </footer>
+  </div>
+    <script src="main.js"></script>
+  </body>
+</html>
